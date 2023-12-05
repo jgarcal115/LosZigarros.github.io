@@ -1,0 +1,75 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Aoboshi One', serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/thumb_3378_default_wide.jpeg");
+  height: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: x-large;
+ 
+}
+
+.historia {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  width: 29%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.banda {
+    font-family: Arial, Helvetica, sans-serif;
+  width: 30%;
+  float: left;
+  padding-right: 10px;
+}
+.albumes {
+    font-family: Arial, Helvetica, sans-serif;
+  width: 34%;
+  float: left;
+  padding-right: 10px;
+}
+.video {
+  clear: both;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.link {
+  text-align: center;
+}
+footer {
+font-family: Arial, Helvetica, sans-serif;
+  background-color: darkorange;
+  background-image: url("/Images/los-zigarros-madrid.jpg");
+  color: rgb(235, 237, 239);
+
+  text-align: center;
+  clear: both;
+  width: 100%;
+  display: block;
+  font-family: "Pacifico", sans-serif;
+}
+@media only screen and (max-width: 768px) {
+    .banda,
+    .historia,
+    .albumes {
+      width: 100%;
+    }
+  }
