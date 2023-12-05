@@ -32,19 +32,21 @@ html {
   width: 29%;
   float: left;
   padding-left: 20px;
-  padding-right: 10px;
+  
 }
 .banda {
     font-family: Arial, Helvetica, sans-serif;
   width: 30%;
   float: left;
-  padding-right: 10px;
+  
+  padding-left: 20px;
 }
 .albumes {
     font-family: Arial, Helvetica, sans-serif;
   width: 34%;
   float: left;
-  padding-right: 10px;
+  
+  padding-left: 20px;
 }
 .video {
   clear: both;
